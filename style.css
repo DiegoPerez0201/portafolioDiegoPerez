@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+body {
+    background-image: url("./img/studio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+}
+
+.title {
+    color: burlywood;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    background-size: 100%;
+    opacity: .90;
+}
+
+.navbar {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: burlywood;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.separation {
+    visibility: hidden;
+}
+
+.title-section {
+    font-size: 50px;
+    background-color: #1a1a1a;
+    opacity: .60;
+    color: burlywood;
+}
+
+img {
+    border: 5px solid #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #1a1a1a;
+    opacity: .90;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 5px;
+    margin: auto;
+    overflow: hidden;
+    opacity: .90;
+}
+
+.foot {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px;
+    border-bottom: 1px solid burlywood;
+}
+
+.prj-section a {
+    text-decoration: none;
+}
+
+.prj-section a:hover {
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 50px;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        background-position: center;
+    }
+
+    .foot {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name-footer {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav {
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav a {
+        margin-right: 5px;
+    }
+
+    * {
+        font-size: 15px;
+    }
+
+    .title-section {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name-footer {
+        text-align: center;
+        justify-content: center;
+    }
+
+}
