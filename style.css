@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url("./img/city2.jpg");
+    background-image: url("./img/fondo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -51,6 +51,20 @@ div {
 
 nav a:hover {
     text-decoration: underline;
+    color: white;
+    text-shadow: white;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.name a:hover {
+    text-decoration: underline;
+    color: white;
+    text-shadow: white;
 }
 
 .separation {
@@ -104,6 +118,8 @@ footer {
 
 .prj-section a:hover {
     text-decoration: underline;
+    color: white;
+    text-shadow: white;
 }
 
 .name {
@@ -132,6 +148,10 @@ footer {
         text-align: center;
         justify-content: center;
     }
+
+    img {
+        height: 144px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -159,6 +179,10 @@ footer {
     .name-footer {
         text-align: center;
         justify-content: center;
+    }
+
+    img {
+        height: 144px;
     }
 
 }
