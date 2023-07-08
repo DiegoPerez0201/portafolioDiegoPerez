@@ -33,6 +33,8 @@ div {
     margin-bottom: 50px;
 }
 
+/*BARRA DE NAVEGACIÓN*/
+
 .navbar-section {
     margin-bottom: 25px;
     padding: 15px;
@@ -54,6 +56,8 @@ nav a:hover {
     text-shadow: white;
 }
 
+/*NOMBRE Y ENCABEZADO*/
+
 .name a {
     text-decoration: none;
     color: black;
@@ -65,14 +69,20 @@ nav a:hover {
     text-shadow: white;
 }
 
+/*LINEAS DE SEPARACIÓN*/
+
 .separation {
     visibility: hidden;
 }
+
+/*TÍTULOS*/
 
 .title-section {
     font-size: 50px;
     color: #a85958;
 }
+
+/*IMÁGENES*/
 
 img {
     border: 5px solid #1a1a1a;
@@ -81,17 +91,67 @@ img {
     opacity: .90;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+/*STACK Y CONTACTO*/
 
 .stack {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*EDICIÓN DE APARTADO PROYECTOS*/
+
+.prj-section a {
+    text-decoration: none;
+}
+
+.prj-section a:hover {
+    color: white;
+    text-shadow: white;
+}
+
+.name {
+    font-size: 50px;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+form {
+    width: auto;
+}
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    color: #a85958;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    color: #1a1a1a;
+    opacity: .60;
+}
+
+button {
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: .60;
+}
+
+/*FOOTER*/
 
 footer {
     background-color: #1a1a1a;
@@ -108,19 +168,6 @@ footer {
     margin: auto;
     padding: 50px;
     border-bottom: 1px solid #a85958;
-}
-
-.prj-section a {
-    text-decoration: none;
-}
-
-.prj-section a:hover {
-    color: white;
-    text-shadow: white;
-}
-
-.name {
-    font-size: 50px;
 }
 
 @media screen and (max-width:900px) {
@@ -156,6 +203,10 @@ footer {
 
     .title {
         font-size: 25px;
+    }
+
+    form {
+        width: auto;
     }
 }
 
@@ -194,4 +245,9 @@ footer {
         height: 144px;
     }
 
+    form {
+        text-align: center;
+        justify-content: center;
+        width: auto;
+    }
 }
