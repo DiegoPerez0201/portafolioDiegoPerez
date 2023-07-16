@@ -29,8 +29,7 @@ body {
 }
 
 div {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 10px;
 }
 
 /*BARRA DE NAVEGACIÓN*/
@@ -58,9 +57,13 @@ nav a:hover {
 
 /*NOMBRE Y ENCABEZADO*/
 
+.name {
+    font-size: 50px;
+}
+
 .name a {
     text-decoration: none;
-    color: black;
+    color: #999;
     font-weight: bold;
 }
 
@@ -80,6 +83,7 @@ nav a:hover {
 .title-section {
     font-size: 50px;
     color: #a85958;
+    padding: 10px;
 }
 
 /*IMÁGENES*/
@@ -114,10 +118,6 @@ img {
 .prj-section a:hover {
     color: white;
     text-shadow: white;
-}
-
-.name {
-    font-size: 50px;
 }
 
 /*FORMULARIO DE CONTACTO*/
@@ -155,7 +155,7 @@ button {
 
 footer {
     background-color: #1a1a1a;
-    padding: 5px;
+    padding: 100px;
     margin: auto;
     overflow: hidden;
     opacity: .90;
