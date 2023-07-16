@@ -63,7 +63,7 @@ nav a:hover {
 
 .name a {
     text-decoration: none;
-    color: #999;
+    color: #1a1a1a;
     font-weight: bold;
 }
 
@@ -84,6 +84,17 @@ nav a:hover {
     font-size: 50px;
     color: #a85958;
     padding: 10px;
+}
+
+/*EDICIÓN DE APARTADO PROYECTOS*/
+
+.prj-section a {
+    text-decoration: none;
+}
+
+.prj-section a:hover {
+    color: white;
+    text-shadow: white;
 }
 
 /*IMÁGENES*/
@@ -107,17 +118,6 @@ img {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-/*EDICIÓN DE APARTADO PROYECTOS*/
-
-.prj-section a {
-    text-decoration: none;
-}
-
-.prj-section a:hover {
-    color: white;
-    text-shadow: white;
 }
 
 /*FORMULARIO DE CONTACTO*/
