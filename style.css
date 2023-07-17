@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: white;
+    font-weight: bold;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 
 .title {
     color: #a85958;
-    font-weight: bold;
 }
 
 .container {
@@ -63,8 +63,8 @@ nav a:hover {
 
 .name a {
     text-decoration: none;
-    color: #1a1a1a;
     font-weight: bold;
+    color: burlywood;
 }
 
 .name a:hover {
