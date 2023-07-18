@@ -111,6 +111,8 @@ img {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
 }
 
 .contact {
