@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-    color: #00304E;
+    color: burlywood;
 }
 
 .container {
@@ -36,7 +36,7 @@ div {
 .navbar-section {
     margin-bottom: 25px;
     padding: 15px;
-    background-color: #1a1a1a;
+    background-color: black;
     background-size: 100%;
 }
 
@@ -130,7 +130,7 @@ label {
     display: inline-block;
     width: 250px;
     text-align: center;
-    color: #00304E;
+    color: burlywood;
     font-weight: bold;
 }
 
@@ -167,7 +167,7 @@ footer {
     justify-content: space-evenly;
     margin: auto;
     padding: 50px;
-    border-bottom: 1px solid #00304E;
+    border-bottom: 1px solid burlywood;
 }
 
 @media screen and (max-width:900px) {
