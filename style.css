@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-    color: burlywood;
+    color: brown;
 }
 
 .container {
@@ -33,19 +33,32 @@ div {
 
 /*BARRA DE NAVEGACIÓN*/
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 1%;
+    background-color: #121c21;
+    opacity: .75;
+}
+
 .navbar-section {
     margin-bottom: 25px;
     padding: 15px;
-    background-color: black;
     background-size: 100%;
 }
 
 .navbar {
     margin-left: 15px;
     margin-right: 15px;
-    color: burlywood;
+    color: brown;
     text-decoration: none;
     font-weight: bold;
+}
+
+nav a {
+    opacity: 1;
 }
 
 nav a:hover {
@@ -62,7 +75,7 @@ nav a:hover {
 .name a {
     text-decoration: none;
     font-weight: bold;
-    color: burlywood;
+    color: brown;
 }
 
 .name a:hover {
@@ -80,7 +93,7 @@ nav a:hover {
 
 .title-section {
     font-size: 50px;
-    color: burlywood;
+    color: brown;
     padding: 10px;
 }
 
@@ -96,13 +109,6 @@ nav a:hover {
 }
 
 /*IMÁGENES*/
-
-img {
-    border: 5px solid #1a1a1a;
-    border-radius: 10px;
-    box-shadow: 0 0 5px 1px #1a1a1a;
-    opacity: .90;
-}
 
 /*STACK Y CONTACTO*/
 
@@ -130,7 +136,7 @@ label {
     display: inline-block;
     width: 250px;
     text-align: center;
-    color: burlywood;
+    color: brown;
     font-weight: bold;
 }
 
@@ -154,11 +160,11 @@ button {
 /*FOOTER*/
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #18323c;
     padding: 100px;
     margin: auto;
     overflow: hidden;
-    opacity: .90;
+    opacity: .50;
 }
 
 .foot {
@@ -167,7 +173,7 @@ footer {
     justify-content: space-evenly;
     margin: auto;
     padding: 50px;
-    border-bottom: 1px solid burlywood;
+    border-bottom: 1px solid brown;
 }
 
 @media screen and (max-width:900px) {
