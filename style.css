@@ -40,7 +40,7 @@ header {
     left: 0;
     padding-top: 1%;
     background-color: #121c21;
-    opacity: .75;
+    opacity: .90;
 }
 
 .navbar-section {
@@ -55,10 +55,6 @@ header {
     color: brown;
     text-decoration: none;
     font-weight: bold;
-}
-
-nav a {
-    opacity: 1;
 }
 
 nav a:hover {
@@ -164,7 +160,7 @@ footer {
     padding: 100px;
     margin: auto;
     overflow: hidden;
-    opacity: .50;
+    opacity: .90;
 }
 
 .foot {
